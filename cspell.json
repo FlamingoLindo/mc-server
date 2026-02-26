@@ -1,10 +1,18 @@
 {
     "version": "0.2",
-    "ignorePaths": [],
+    "ignorePaths": [
+        "whitelist.json"
+    ],
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [
-        "itzg"
+        "Dockerized",
+        "ENABLE_AUTOPAUSE",
+        "gamerule",
+        "itzg",
+        "keepinventory",
+        "RCON",
+        "setdisplay"
     ],
     "ignoreWords": [],
     "import": []

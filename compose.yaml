@@ -4,10 +4,22 @@ services:
     ports:
       - "25565:25565"
     environment:
+      VERSION: "LATEST"
       EULA: "TRUE"
-    deploy:
-      resources:
-        limits:
-          memory: 1.5G
+      ICON: "/logo.jpg"
+      OVERRIDE_ICON: "TRUE"
+      DIFFICULTY: "normal"
+      ENABLE_WHITELIST: "TRUE"
+      WHITELIST_FILE: "/whitelist.json"
+      ENABLE_AUTOPAUSE: "TRUE"
+      RCON_CMDS_STARTUP: |-
+        /scoreboard objectives add deaths deathCount "Deaths"
+        /scoreboard objectives setdisplay list deaths
+    # deploy:
+    #   resources:
+    #     limits:
+    #       memory: 1.5G
     volumes:
       - "~/minecraft_data:/data"
+      - "./whitelist.json:/whitelist.json"
+      - "./logo.jpg:/logo.jpg"
