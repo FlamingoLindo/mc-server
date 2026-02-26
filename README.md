@@ -121,4 +121,4 @@ deploy:
 
 ## How to set up DNS
 
-https://github.com/user-attachments/assets/ba6efbc0-5f44-4579-948a-06793859c847
+<img width="899" height="602" alt="Image" src="https://github.com/user-attachments/assets/ba6efbc0-5f44-4579-948a-06793859c847" />
