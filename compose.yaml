@@ -23,3 +23,9 @@ services:
       - "~/minecraft_data:/data"
       - "./whitelist.json:/whitelist.json"
       - "./logo.jpg:/logo.jpg"
+
+  playit:
+    image: ghcr.io/playit-cloud/playit-agent:0.17
+    network_mode: host
+    environment:
+      SECRET_KEY: ${SECRET_KEY}
