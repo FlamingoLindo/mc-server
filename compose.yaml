@@ -12,6 +12,7 @@ services:
       ENABLE_WHITELIST: "TRUE"
       WHITELIST_FILE: "/whitelist.json"
       # ENABLE_AUTOPAUSE: "TRUE"
+      ONLINE_MODE: "FALSE"
       RCON_CMDS_STARTUP: |-
         /scoreboard objectives add deaths deathCount "Deaths"
         /scoreboard objectives setdisplay list deaths
