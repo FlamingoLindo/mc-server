@@ -15,6 +15,8 @@ services:
       RCON_CMDS_STARTUP: |-
         /scoreboard objectives add deaths deathCount "Deaths"
         /scoreboard objectives setdisplay list deaths
+        /scoreboard objectives add ping ping "Ping"
+        /scoreboard objectives setdisplay list ping
     # deploy:
     #   resources:
     #     limits:
