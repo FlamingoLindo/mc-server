@@ -9,7 +9,7 @@ services:
       ICON: "/logo.jpg"
       OVERRIDE_ICON: "TRUE"
       DIFFICULTY: "normal"
-      ENABLE_WHITELIST: "TRUE"
+      # ENABLE_WHITELIST: "TRUE"
       # WHITELIST_FILE: "/whitelist.json"
       # ENABLE_AUTOPAUSE: "TRUE"
       ONLINE_MODE: "FALSE"
