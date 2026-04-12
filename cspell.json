@@ -10,7 +10,10 @@
         "ENABLE_AUTOPAUSE",
         "gamerule",
         "itzg",
+        "joinmc",
         "keepinventory",
+        "mcuuid",
+        "PLAYIDSECRETKEY",
         "playit",
         "RCON",
         "setdisplay"
